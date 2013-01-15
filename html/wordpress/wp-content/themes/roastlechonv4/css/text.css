@@ -1,0 +1,60 @@
+body { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 75%; line-height: 1.5em; color: #fcfcfc;}
+
+#navigation ul {list-style-type: none; padding: 0; margin: 0; width: 100%;}
+#navigation li { float: left; margin: 0; padding: 0;}
+#navigation li a:link, #navigation li a:visited, #navigation li a:active { color: #fcfcfc; text-decoration: none; float: left; width: 120px; padding: 10px 5px 10px 25px; }
+#navigation li a:hover {}
+.headnav { font-size: 1.5em; text-decoration: none;} /* Navigation Title Menu*/
+#navigation span {float: left; width: 100%; font-size: .667em;} /* Navigation description text */
+
+img {border: none;}
+a:link img {border: none;}
+a:visited img {border: none;}
+a:active img {border: none;}
+#logo a:hover {border: none; background: none;}
+
+
+p a:link { color: #c59a6f;}
+p a:hover {background: #ffffff; color: #821122;}
+p:hover a:link { border-bottom: dotted 1px #c59a6f;}
+
+.alignleft {float: left;}
+.alignright {float: right;}
+
+a:link, a:active, a:visited {color: #ffffff; text-decoration: none;}
+a:hover {background: #821122;}
+
+.page-title { font-size: 1.33em;}
+.post-title, .post-title a:link { color: #FFFFFF; text-decoration: none; font: 1em Tahoma, Arial, Helvetica; font-size: 1.33em; line-height: 1em;}
+.sidebar-title { font-size: 1.33em;}
+.responses-title { font-size: 1.33em;}
+.post-response { font-size: 1.33em;}
+.statuspress {font-size: 1.33em;}
+
+ol.responses-list { list-style: outside; margin: 0; padding: 0;}
+
+
+#maincontent div {padding-left: 10px;}
+
+/* Sidebar List*/
+#recentposts {list-style-type: none; margin: 0; padding: 0;}
+#recentposts li {margin: 0; padding: 0; }
+#recentposts a:link, #recentposts a:visited, #recentposts a:active { display: block; width: 100%; border-top: 1px #777 solid; padding: 3px 0 3px 0; text-decoration: none;}
+.recentnav {font-size: 1.166em; text-decoration: none;}
+#recentposts a:hover { background: #222222;}
+#recentposts span { font-size: .7857em; padding-left: 8px; color: #cccccc;}
+
+#sidebar ul {list-style-type: none; margin: 0; padding: 0;}
+
+.statuspress li{ display: block; width: 100%; border-top: 1px #777 solid; padding: 3px 0 3px 0; text-decoration: none;}
+.statuspress span {font-size: .7857em; color: #cccccc; padding-left: 8px;}
+#portfolio ul {list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#portfolio li {width: 250px; margin: 0; height: 200px; padding: 5px 20px 15px 20px; float: left;}
+#portfolio li img {border: #333 solid 3px;}
+
+.category-list {width: 100%;}
+.category-list li {width: 150px; margin: 0; float: left;}
+.archive-list {width: 100%;}
+.archive-list li {width: 150px; margin: 0; float: left;}
+
+.clear {clear: left;}

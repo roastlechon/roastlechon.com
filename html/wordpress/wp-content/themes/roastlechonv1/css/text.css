@@ -1,0 +1,55 @@
+body { font-family: Verdana, Trebuchet MS, Arial, sans-serif; font-size: 13px;}
+
+h1,h2,h3 { font-family: "Trebuchet MS", verdana, sans-serif; font-weight: normal;}
+h1 { color: #333333; font-size: 22px; font-variant: small-caps; font-weight: bold;}
+h1 a { text-decoration: none; color: #333333;}
+h1 a:hover { text-decoration: line-through; color: #a59b79;}
+h2 { font-size: 17px; color: #414141;}
+h3 { font-size: 14px; color: #414141; font-weight: bold;}
+h3 a { text-decoration: none; color: #79745d;}
+h3 a:hover { text-decoration: line-through; color: #a59b79;}
+
+a { color: #79745d; text-decoration: none;}
+a:hover { color: #a59b79; text-decoration: none;}
+
+p:hover a { text-decoration: none; border-bottom: dotted 1px #000000;}
+p:hover img { border-bottom: none;}
+
+#navtext { font-family: "Trebuchet MS", verdana, sans-serif; font-weight: normal; font-size: 14px; margin: 0 auto; font-variant: small-caps; font-weight: bold; text-align: right; word-spacing: -4px;}
+#navtext ul { list-style-type: none; margin: 0 auto;}
+#navtext li { display: inline;}
+#navtext li a {color: #ffffff; text-decoration: none; padding: 0 6px 2px 5px;}
+#navtext li a:hover { background: #d4cfb7; color: #000000;}
+#navtext li a:active, a.selected { background: #d4cfb7; color: #000000;}
+
+#pastcontent h1 { color: #333333; font-size: 22px; border-bottom: dashed 1px #333333; font-variant: small-caps; font-weight: bold;}
+
+#footer { color: #ffffff; font-family: Arial, "Trebuchet MS", Verdana, sans-serif; font-size: 13px; padding: 10px 0 10px 0px;}
+#footer a { color: #ffffff; text-decoration: underline;}
+#footer a:hover {color: #a59b79; text-decoration: none;}
+
+#search h2 { font-size: 17px; color: #eeeeee; text-align: left; border-bottom: dashed 1px #ffffff;}
+#searchform { display: inline;}
+#menu h2 { font-size: 17px; color: #eeeeee; border-bottom: dashed 1px #ffffff;}
+#copy h2 { font-size: 17px; color: #eeeeee; text-align: left; border-bottom: dashed 1px #ffffff;}
+
+#s {height: 13px; border: none;}
+#submitbutton { height: 15px; width: 18px; font-size: 12px; border: none;}
+
+#sub h2 { font-size: 17px; color: #eeeeee; border-bottom: dashed 1px #ffffff;}
+#sub ul { list-style: none; margin: 0; padding: 0;}
+#sub li { margin: 0;}
+#sub li a { color: #ffffff; text-decoration: none;}
+#sub li a:hover { color: #a59b79;}
+#sub { color: #ffffff; font-family: Verdana, Trebuchet MS, Arial, sans-serif; font-size: 13px; }
+#sub p:hover a { text-decoration: none; border-bottom: dotted 1px #ffffff;}
+#linkcat-1 h2 { font-size: 17px; color: #eeeeee; border-bottom: dashed 1px #ffffff;}
+#linkcat-1 ul { list-style: none; margin: 0; padding: 0;}
+#linkcat-1 li { margin: 0;}
+#linkcat-1 li a { color: #ffffff; text-decoration: none;}
+#linkcat-1 li a:hover { color: #a59b79;}
+
+#footer ul { list-style: none; margin: 0; padding: 0;}
+#footer li { margin: 0;}
+#footer li a { color: #ffffff; text-decoration: underline;}
+#footer li a:hover { color: #a59b79;}

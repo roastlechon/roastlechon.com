@@ -1,0 +1,204 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_serv",
+				"get_server_status"
+			],
+			[
+				"utf8",
+				"utf8_encode"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"hlsta",
+				"hlstatsx"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Z/Projects/cccnation.com/html/application/controllers/statistics.php",
+		"/C/Users/Noel Madali/Projects/cccnation.com/html/application/models/statistics_model.php",
+		"/C/Users/Noel Madali/Projects/cccnation.com/html/application/models/server_model.php",
+		"/C/Users/Noel Madali/AppData/Local/Temp/fz3temp-1/test.php",
+		"/Z/Projects/icit.kennesaw.edu/html/application/config/routes.php",
+		"/Z/Projects/icit.kennesaw.edu/html/application/config/config.php",
+		"/Z/Projects/icit.kennesaw.edu/html/application/controllers/pages.php",
+		"/Z/Projects/icit.kennesaw.edu/html/application/controllers/index.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/config/database.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/models/statistics_model.php",
+		"/C/Users/Noel Madali/Downloads/cccnation.com/cccnation.com/forums/styles/we_universal/theme/tweaks.css",
+		"/C/Users/Noel Madali/Downloads/cccnation.com/cccnation.com/forums/styles/we_universal/template/overall_header.html",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/views/index.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/models/server_model.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/controllers/servers.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/controllers/statistics.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/controllers/index.php",
+		"/Z/Projects/roastlechon.com/html/application/controllers/servers.php",
+		"/C/Users/Noel Madali/AppData/Local/Temp/fz3temp-1/routes.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/config/routes.php",
+		"/C/Users/Noel Madali/Downloads/cccnation.com/cccnation.com/forums/styles/we_universal/theme/stylesheet.css",
+		"/C/Users/Noel Madali/Downloads/cccnation.com/cccnation.com/forums/styles/we_universal/theme/common.css",
+		"/C/Users/Noel Madali/Downloads/cccnation.com/cccnation.com/forums/styles/we_universal/theme/bidi.css",
+		"/C/Users/Noel Madali/AppData/Local/Temp/fz3temp-1/overall_header.html",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/views/header.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/views/index.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/views/manage.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/views/search.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/views/results.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/views/gps.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/models/manage_model.php",
+		"/C/Users/Noel Madali/AppData/Local/Temp/fz3temp-1/show_graph.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/config/config.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/controllers/index.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/models/index_model.php",
+		"/C/Users/Noel Madali/Projects/gpsapp.ups.com/html/application/controllers/manage.php",
+		"/C/Users/Noel Madali/Projects/svps02.roastlechon.com/html/application/config/config.php",
+		"/C/Users/Noel Madali/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Noel Madali/AppData/Local/Temp/fz3temp-1/config.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/application/config/autoload.php",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/backup/index.html",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/index.html",
+		"/C/Users/Noel Madali/Projects/svps02.roastlechon.com/html/application/config/database.php",
+		"/C/xampp/phpmyadmin/config.inc.php",
+		"/C/xampp/htdocs/index.html",
+		"/C/Users/Noel Madali/Projects/roastlechon.com/html/wp-content/themes/roastlechonv5/index.php",
+		"/D/Projects/kingspringchinese.com/html/css/css.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</h2><p>",
+			"chef specials",
+			"</h3>",
+			"<h3>",
+			"Lunch",
+			"Fried Rice"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</h2><p align=\"center\">",
+			"</p>",
+			"<p>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}

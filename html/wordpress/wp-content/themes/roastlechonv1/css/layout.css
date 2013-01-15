@@ -1,0 +1,33 @@
+body { background-color: #000000; margin: 0 5px 0 5px;}
+
+.content { width: 880px; margin: 0 auto;}
+.contentpast { width: 800px; margin: 0 auto;}
+#container {width: 100%; }
+#header { background: url(../images/headerbg.jpg) no-repeat top left; background-color: #524f4c; margin: 0 auto; height: 100px; border-top: 8px solid #d4cfb7;}
+#logo { background: url(../images/rllogo.jpg) no-repeat bottom right; background-color: #a91e22; margin: 0 auto; height: 100px; width: 300px; border-right: 1px #000000 solid; float: left;}
+.navigation { text-align: right; padding-bottom: 10px;}
+#maincontent { background-color: #d4cfb7; margin: 0 auto;}
+.post { padding: 5px 0 5px 0; margin: 0 auto; line-height: 1.5em; text-align: justify;}
+#pastcontent { background-color: #dbd7c3; border-top: #ffffff solid 3px; border-bottom: #ffffff solid 3px; margin: 0 auto; padding: 10px 10px 10px 10px; width: 90%;}
+#sub { border-top: 3px solid #ffffff; width: 100%;background: #524f4c; height: 550px; padding: 10px 0 0 0;}	
+
+#top { width: 100%; float: left; margin: 0 auto; padding: 0;}
+#flickr_badge_uber_wrapper {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+#winamphits {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+#other {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+#aboutme {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+
+#bottom {width: 100%; float: left; margin: 0 auto; padding: 0;}
+#categories {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+#archives {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+#delicious {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+#links {width: 200px; float: left; margin: 0; padding: 0 10px 10px 10px;}
+fieldset {border: 0;}
+
+#comment ol { padding-left: 15px;}
+#comment p { margin-top: 0;}
+
+#footer { float: left; background: #a91e22; width: 100%; padding: 20px 0 0 0;}
+#search { float: left; width: 200px; padding: 0 10px 10px 10px;}
+#menu {float: left; width: 200px; padding: 0 10px 10px 10px;}
+#copy {float: left; width: 420px; padding: 0 10px 10px 10px; text-align: justify;}

@@ -1,0 +1,19 @@
+body { margin: 0 auto; width: 100%;}
+#container {width: 100%;}
+#main {width: 100%;}
+#googlead { width: 100%; height: 100px; margin: 0 auto; float: left;}
+#placer {width: 728px; height: 90px; margin: 0 auto; margin-top: 1%;}
+#bannerbg { background-color: #426ab2; width: 100%; height: 100px; float: left;}
+#banner { background: url(../images/banner.jpg) no-repeat; height: 100px;}
+#content { width: 95%; min-width: 400px; max-width: 1200px; float: left; margin: 0 auto;}
+#leftcontent { width: 80%; float: left; margin: 0 auto; }
+#mainpost {width: 100%; float: left; margin: 0 auto;}
+.post { margin: 0 auto; padding: 3%; width: 94%; overflow: auto; }
+.recentposts {margin: 0 auto; margin-top: 3%; padding: 3%; width: 88%; overflow: auto; background-color: #f3f6fa;  border-top: 1px solid #e1e3e8; border-bottom:  1px solid #e1e3e8;}
+.comments { margin: 0 auto; margin-top: 3%; padding: 3%; margin-bottom: 3%; width: 88%; overflow: auto; background-color: #e8eff7;}
+#sidebar { width: 20%; max-width: 290px; float: left;}
+#footer { width: 100%; float: left; background: #426ab2;  padding-bottom: 3%;}
+#footercontent { width: 94%; min-width: 400px; max-width: 1200px; padding: 3%;}
+.footercolumn { width: 24.5%; float: left;}
+#bottom { width: 100%; float: left; color: #ffffff; background: #000000;}
+#bottomcontent { width: 94%; min-width: 400px; max-width: 1200px; padding: 3%;}
