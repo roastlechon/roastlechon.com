@@ -1,0 +1,20 @@
+{
+  "name": "@roastlechon/site",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@theme-ui/prism": "^0.3.0",
+    "gatsby": "^2.24.47",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "peerDependencies": {
+    "@roastlechon/gatsby-theme-succulent": "1.0.0"
+  }
+}
