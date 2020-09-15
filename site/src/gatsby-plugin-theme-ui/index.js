@@ -167,20 +167,11 @@ export default merge(baseTheme, {
       ".md-body": {
         mt: 4,
         h2: {
-          mt: 5,
+          mt: 3,
           mb: 2,
           position: `relative`,
           color: `accent`,
           fontSize: 1,
-          "::before": {
-            position: `absolute`,
-            top: -2,
-            left: `-1.2rem`,
-            color: `primary`,
-            content: `"#"`,
-            fontWeight: `bold`,
-            fontSize: 3,
-          },
         },
         pre: {
           my: 4,

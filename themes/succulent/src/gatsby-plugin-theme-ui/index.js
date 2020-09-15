@@ -114,8 +114,8 @@ export default {
     },
     main: {
       a: {
-        color: `text`,
-        textDecoration: `none`,
+        color: `primary`,
+        textDecoration: `underline`,
       },
     },
     footer: {

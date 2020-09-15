@@ -1,0 +1,47 @@
+---
+title: Testing out Gatsby
+slug: testing-out-gatsby
+date: 2020-09-14
+tags: ['general', 'updates', 'personal']
+---
+
+## Moving away from Hexo
+
+My first thought of [Gatsby][gatsby] was that of a static site generator for Node.js and React. I did not know much else besides that. Initially playing around with [Hexo][hexo] for this website, I had spun the wheels with the themes and tested its flexibility for creating something more than a blog.
+
+I was looking for more features/functionality out of Hexo much like I used to use WordPress and convert it into powerful/customizable websites that can be used for eCommerce and such.
+
+It turns out that Hexo was slightly limited in how it outputs Markdown into static files.
+
+What I wanted was the ability to use MDX and create reusable components for the markdown and output static pages. I wanted to use the components that outputted the pages and be able to run client side React components (or anything else) based on any need (whether it is analytics, ads, widgets, etc).
+
+## Enter in Gatsby
+
+Before I committed to ripping out Hexo and [Gatsby][gatsby], I read through the documentation. And man was it a deep rabbit hole. At a glance, I was able to see how flexible, comprehensive, and confusing it can be for newbie bloggers to pick up Gatsby.
+
+Aside from a command like `gatsby new gatsby-site` to replicate an existing repository structure, it is difficult to test out different boilerplates. One must delete the folder `gatsby-site` before cloning another model repository.
+
+Reading more into the documentation and looking at other themes and their source code, I began to see the pattern of how theme development and content is statically generated.
+
+Gatsby does quite a bit out of the box, but still relies on core code to write out blog posts statically (as defined in gatsby-node.js). One thing I did not know until Googling around was that the React components in `src/pages` [folder automatically become pages](https://www.gatsbyjs.com/docs/creating-and-modifying-pages/).
+
+## Theme Customization
+
+Following from Hexo, I found a [port](https://github.com/chrismwilliams/gatsby-theme-cactus) of the [Hexo Cactus theme](https://github.com/probberechts/hexo-theme-cactus) which I cloned and renamed `gatsby-theme-succulent`. I followed a best practices such as creating a Yarn monorepo and having a themes workspace and site package. Ultimately I hope to create a new theme that provides out of the box features similar to how WordPress has defaults like archives, categories, page templates, post templates, etc.
+
+## Annoyances and Continued Learning
+
+Gatsby has a lot of great concepts. One of them is the idea of the `source-file-system` which allows you to turn the files in your codebase into a queryable database (via GraphQL).
+
+This is referenced heavily in the `gatsby-node.js` file, where a few bootstrap steps take place to initialize the database to pump out all the pages/posts for the static website.
+
+I was puzzled to find that themes usually have a `gatsby-node.js` file. My critique of this was that this type of coupling of "theme" files and creation of pages should not belong together.
+
+In order to have a system where you can freely change out themes on a whim, I believe the core website should have a `gatsby-node.js` file where the site's core components can reference the theme. I do not mean to say that this is currently impossible with Gatsby. I believe that this is possible given how Gatsby was architected/structured.
+
+I need to spend some time playing around and continuing to learn the ins and outs of Gatsby so that I can achieve my goal of a static WordPress like experience.
+
+Until next time!
+
+[gatsby]: https://www.gatsbyjs.com/docs/quick-start/
+[hexo]: https://hexo.io/
