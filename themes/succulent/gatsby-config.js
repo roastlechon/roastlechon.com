@@ -48,6 +48,7 @@ module.exports = (themeOptions) => {
       },
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
+      'gatsby-plugin-fontawesome-css',
     ],
   };
 };
