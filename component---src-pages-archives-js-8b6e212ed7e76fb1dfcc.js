@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{NAZ6:function(n,r,u){"use strict";u.r(r),u.d(r,"query",(function(){return i}));var e=u("YGWi");r.default=e.g;var i="2308380990"}}]);
+//# sourceMappingURL=component---src-pages-archives-js-8b6e212ed7e76fb1dfcc.js.map
