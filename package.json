@@ -5,5 +5,8 @@
   "workspaces": [
     "site",
     "themes/*"
-  ]
+  ],
+  "resolutions": {
+  	"node-forge": "^0.10.0"
+  }
 }
