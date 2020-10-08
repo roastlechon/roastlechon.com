@@ -3,7 +3,7 @@ import { jsx, Styled } from "theme-ui";
 import { graphql, useStaticQuery, Link } from "gatsby";
 
 import { Underline } from "@roastlechon/gatsby-theme-succulent/src/components";
-import formateTime from "@roastlechon/gatsby-theme-succulent/utils/format-time";
+import formatTime from "@roastlechon/gatsby-theme-succulent/utils/format-time";
 
 export default function BlogList() {
   const { allBlogPost } = useStaticQuery(BlogListQuery);
@@ -11,14 +11,14 @@ export default function BlogList() {
   return (
     <section>
       <Link to="/archives/" sx={{ variant: `links.secondary` }}>
-        <h2 sx={{ variant: `title` }}>Writings</h2>
+        <h2 sx={{ variant: `title` }}>Posts</h2>
       </Link>
       <Styled.ul>
         {allBlogPost.edges.map(({ node }) => {
           return (
             <li key={node.id} sx={{ mb: 2 }}>
               <time
-                dateTime={formateTime(node.date)}
+                dateTime={formatTime(node.date)}
                 sx={{ mr: 3, color: `tertiary` }}
               >
                 {" "}

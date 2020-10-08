@@ -6,6 +6,7 @@ import {
 } from "@roastlechon/gatsby-theme-succulent/src/components";
 import Intro from "../components/intro";
 import BlogList from "../components/blog-list";
+import Writings from "../components/writings";
 import Projects from "../components/projects";
 
 export default function IndexPage() {
@@ -14,6 +15,7 @@ export default function IndexPage() {
       <SEO title="Home" />
       <Intro />
       <BlogList />
+      <Writings />
       <Projects />
     </Layout>
   );

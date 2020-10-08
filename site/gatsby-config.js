@@ -43,5 +43,12 @@ module.exports = {
         desc: 'Node.js rtorrent web UI. Currently outdated and not maintained.'
       }
     ],
+    writings: [
+      {
+        name: 'How The Weather Company uses Node.js in production',
+        url: 'https://developer.ibm.com/articles/nodejs-weather-company-success-story/',
+        date: '20 Apr 2020'
+      }
+    ],
   },
 }

@@ -65,7 +65,7 @@ export default function Header() {
           <PrimaryLink to="/about/" linkText="About" />
         </span>
         <span>
-          <PrimaryLink to="/archives/" linkText="Writings" />
+          <PrimaryLink to="/archives/" linkText="Posts" />
         </span>
       </nav>
     </header>
